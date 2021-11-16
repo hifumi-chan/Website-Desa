@@ -1,0 +1,4646 @@
+/*====================================================
+--<	IT-TECH Header Top Area Css -->
+======================================================*/
+.header-top-area{
+	padding: 11px 0;
+	background: #111A3A;
+}
+.dreamit-top-address ul {
+    list-style: none;
+}
+.dreamit-top-address ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.dreamit-top-address ul li a {
+    color: #fff;
+}
+.dreamit-top-address ul li span{
+	color:#fff;
+}
+.dreamit-top-address ul li i {
+    color: #4FA564;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.top-address-left-text {
+	margin-right: 20px;
+}
+.top-address-left-text span a{
+	color: #fff;
+}
+.top-address-left-text span{
+	color: #fff;
+}
+.top-address-left-icon i {
+	color: #4FA564;
+}
+.top-address-left a i{
+	font-size: 15px;
+	color: #4FA564;
+	margin-right: 6px;
+	display:inline-block;
+}
+.top-address-left a{
+	color: #fff;
+	display:lnline-block;
+}
+.top-address-left span i{
+	font-size: 15px;
+	color: #4FA564;
+	margin-right:4px;
+	margin-left: 15px;
+}
+.top-address-left span{
+	color: #fff;
+}
+.header-info-right{
+	text-align: right;
+}
+.header-info-right a i{
+	margin-left: 14px;
+	color: #fff;
+	font-size: 15px;
+}
+/* style-four */
+.style-four{
+	display: none;
+}
+.top-style-five{
+	display: none;
+}
+
+/*--Start Mobile menu---*/
+.top-logo {
+	text-align: center;
+	padding: 20px;
+	display: none;
+}
+.logo-txt::before {
+	content: "ITTECH";
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+	z-index: 9999;
+	display: none;
+}
+.menu-toggle {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	right: 30px;
+	position: absolute;
+	top: 16px;
+	z-index: 9999;
+	display: none;
+	cursor: pointer;
+}
+.dreamit-header-menu ul li a span i{
+	display: none;
+}
+.active-nav{
+	left: 0 !important;
+}
+
+
+
+/*--End Mobile menu---*/
+
+/*====================================================
+--<	IT-TECH Header Area Css -->
+======================================================*/
+.header-menu-area{
+	padding: 20px 0;
+}
+.dreamit-header-menu{
+	text-align: right;
+}
+.dreamit-header-menu ul{
+	list-style: none;
+	text-align: right;
+	display: inline-block;
+}
+.dreamit-header-menu ul li {
+    display: inline;
+    position: relative;
+    padding-bottom: 38px;
+	margin-right: 20px;
+}
+.dreamit-header-menu ul li a:hover{
+	color: #4FA564;
+}
+.dreamit-header-menu ul li:hover{
+	color: #4FA564;
+}
+.dreamit-header-menu ul li a{
+	display: inline-block;
+	font-size: 17px;
+	margin-right: 10px;
+	transition: .3s;
+	color: #232323;
+}
+/* sticky */
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+	top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #4FA564 !important;
+    transition: .5s;
+    z-index: 999;
+    right: 0;
+}
+.sticky-logo{
+	display: none;
+}
+.sticky .sticky-logo{
+	display: inherit;
+}
+.techno_nav_manu.transparent_menu {
+    background: transparent;
+    margin-bottom: -87px;
+    position: relative;
+}
+.sticky .menu-logo{
+	display: none;
+}
+.sticky .dreamit-header-menu ul li a {
+    color: #fff;
+}
+.sticky .dreamit-header-menu ul li a i{
+    color: #fff !important;
+}
+.sticky .dreamit-header-menu ul li .sub-menu li a {
+    color: #232323 !important;
+    display: block;
+    padding: 8px 20px;
+    margin: 0;
+    position: relative;
+    transition: .3s;
+    font-size: 16px;
+}
+.sticky .dreamit-header-menu ul li .sub-menu li a:hover {
+	color: #4FA564 !important;
+}
+.sticky .header-button a {
+    background: #fff !important;
+    color: #4FA564 !important;
+    border: none !important;
+}
+/* sub-menu */
+.dreamit-header-menu ul li .sub-menu {
+    position: absolute;
+    transition: .5s;
+    left: 0;
+    top: 150%;
+    background: #fff;
+    z-index: 999;
+    text-align: left;
+    width: 270px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 20px 20px;
+}
+.dreamit-header-menu ul li:hover .sub-menu{
+	top: 95%;
+	opacity: 1;
+	visibility:visible;
+}
+.dreamit-header-menu ul li .sub-menu li a {
+    color: #232323;
+    display:block;
+    padding: 8px 20px;
+	margin: 0;
+	position: relative;
+	transition: .3s;
+    font-size: 16px;
+}
+.dreamit-header-menu ul li .sub-menu li a:hover{
+	transform: translateX(8%);
+	color:#4FA564 ;
+}
+.dreamit-header-menu ul li .sub-menu li a:before{
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	font-size: 20px;
+	color: #5451c1;
+	content: "";
+	transform: translateY(-50%);
+	opacity: 0;
+	transition: .1s;
+	visibility: hidden;
+	width: 15px;
+	height: 1px;
+	background: #4FA564;
+}
+.dreamit-header-menu ul li .sub-menu li a:hover:before{
+	opacity: 1;
+	visibility: visible;
+}
+/* style-two */
+.menu-style-two ul li a{
+	display: inline-block;
+	font-size: 17px;
+	margin-right: 12px;
+	color: #fff;
+}
+.menu-style-two ul li a:hover{
+	color: #fff;
+}
+.dreamit-header-menu i{
+	opacity: 0.8;
+	font-size: 13px;
+	margin-left: 5px;
+	color: #232323;
+}
+ .menu-style-two ul li a{
+	opacity: .5;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #fff;
+}
+.header-button{
+	display: inline-block;
+}
+.header-button a{
+	background: #4FA564;
+	color: #fff;
+	display: inline-block;
+	font-size: 17px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+	border-radius: 4px;
+	border: 2px solid #4FA564;
+	text-align: right;
+	padding: 13px 30px;
+}
+.header-button a:hover{
+	background: #2772EE;
+	border-color: #2772EE;
+}
+.button-style-two a {
+	display: inline-block;
+	font-size: 13px;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 13px 26px;
+	background: transparent;
+	transition: .3s;
+	border-radius: 5px;
+}
+.button-style-two {
+    display: inline-block;
+}
+.button-style-two a:hover{
+	background: #fff;
+	color: #4FA564;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+/* Header-style-Two */
+.header-style-two.header-menu-area {
+    margin-bottom: -92px;
+}
+.header-menu-area {
+	padding: 22px 0 18px;
+	position: relative;
+}
+.header-style-two .sticky-logo{
+	display: inherit;
+}
+.header-style-two .menu-logo{
+	display: none;
+}
+.header-style-two .dreamit-header-menu ul li a {
+    color: #fff;
+}
+.header-style-two .dreamit-header-menu ul li a i{
+    color: #fff;
+}
+.header-style-two .dreamit-header-menu ul li a:hover {
+    color: #fff;
+}
+/* Header-Style-Four */
+.header-style-four.header-menu-area {
+    margin-bottom: -95px;
+    padding-bottom: 30px;
+}
+.header-button i{
+	display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 0px;
+}
+/* Header-Style-Five */
+.header-icon {
+    display: inline-block;
+}
+.header-icon a i {
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0;
+}
+/* header-single-style */
+.header-single-style.header-menu-area {
+    margin-bottom: -78px;
+}
+.header-single-style .dreamit-header-menu ul li a{
+    color: #fff;
+}
+.header-single-style .dreamit-header-menu ul li a i{
+    color: #fff;
+}
+/* style six */
+.header-style-six.header-menu-area {
+    margin-bottom: -80px;
+}
+/* scrollup */
+#scrollUp {
+    bottom: 30px;
+    color: #fff;
+    font-size: 34px;
+    height: 60px;
+    line-height: 60px;
+    right: 30px;
+    text-align: center;
+    width: 60px;
+    border-radius: 100%;
+    background: #4FA564;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+/*====================================================
+--<	IT-TECH Slider Area Css -->
+======================================================*/
+.slider-area{
+	background:url(assets/images/slider/slider-01.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	min-height:875px;
+	background-size:cover;
+}
+.slider-content h4{
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	margin: 0 0 23px;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+}
+.slider-content h1{
+	font-size: 76px;
+	color: #fff;
+	font-weight: 800;
+}
+h1.cd-headline.clip.is-full-width {
+    font-size: 65px;
+}
+.slider-content h2{
+	font-size: 76px;
+	font-weight: 500;
+	color: #fff;
+}
+.slider-content p{
+	text-align: left;
+	color: #fff;
+	margin: 35px 0 30px;
+	font-size: 20px;
+}
+.slider-button a:hover{
+	background-color: #fff;
+	color: #4FA564;
+	border-color: #fff;
+}
+.slider-button a{
+	background: #4FA564;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 17px;
+	padding: 18px 26px;
+	margin-top: 13px;
+}
+.slider-button a i{
+	margin-left: 10px;
+	font-weight: 800;
+}
+/* Slider-Style-Two */
+.slider-style-two.slider-area{
+	background:url(assets/images/slider/slider-02.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	min-height:875px;
+	background-size:cover;
+}
+/* Slider-Style-Three */
+.slider-style-three.slider-area{
+	background:url(assets/images/single-about.jpg);
+}
+.slider-style-three .slider-content p {
+	width: 56%;
+	line-height: 32px;
+}
+.slider-style-three .slider-video {
+	position: absolute;
+	margin-bottom: 40px;
+	display: inline-block;
+	right: 20%;
+	top: 50%;
+}
+.slider-style-three .slider-content h4 {
+	border-bottom: 0;
+	background: rgba(255,255,255,0.30);
+	padding: 10px 10px;
+}
+/* Slider-Style-Four */
+.slider-style-four.slider-area{
+	background: transparent url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/efect-slider.png) center center/cover no-repeat scroll;
+}
+.slider-style-four .slider-content{
+	text-align: center;
+}
+.slider-style-four .slider-content h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.slider-style-four .slider-content h4 {
+    border-bottom: 0;
+}
+.slider-style-four .slider-content p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin: 30px auto 17px;
+}
+.slider-style-four .slider-content h4 {
+    margin: 0px 0px 10px;
+}
+.slider-style-four .slider-button{
+	text-align: center !important;
+}
+.slider-style-four .slider-button a {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    padding: 12px 36px;
+    transition: .5s;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.slider-style-four .slider-button a:hover{
+	background: #fff;
+    color: #4FA564;
+}
+.slider-style-four .button-two {
+    background: #fff !important;
+    border-radius: 5px;
+    color: #4FA564 !important;
+    display: inline-block;
+    font-size: 17px;
+	padding: 12px 26px;
+	transition: .5s;
+    margin-top: 13px;
+}
+.slider-style-four .button-two:hover{
+	background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+	color: #fff !important;
+}
+/* Slider-Style-Five */
+.slider-style-six.slider-area{
+	background: transparent url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/banner-img03.jpg) center center/cover no-repeat scroll;
+}
+/* slider-style-Six */
+.slider-style-six.slider-area {
+    background: url(assets/images/slider2.png);
+}
+.slider-style-six .slider-content h1 {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 800;
+}
+.slider-style-six .slider-content h2 {
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 0;
+}
+.slider-style-six .slider-content p {
+    margin: 25px 0 20px 0;
+}
+.slider-animation-thumb img {
+    width: 120px;
+}
+.slider-style-six .slider-video {
+    position: relative;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.slider-animation-thumb{
+	position: relative;
+}
+img.animation-three {
+    width: 70%;
+    position: absolute;
+    left: 28%;
+}
+img.animation-four {
+    position: absolute;
+    bottom: -87%;
+    right: -16%;
+    width: 195px;
+}
+img.animation-two {
+    position: absolute;
+    left: 3%;
+    bottom: -100%;
+    width: 152px;
+}
+img.animation-two {
+    position: absolute;
+    left: 3%;
+    bottom: -100%;
+    width: 152px;
+}
+/* slider-single-style */
+.slider-single-style.slider-area {
+    background: url(assets/images/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 155px 0;
+    min-height: 0;
+}
+.slider-single-style.header-menu-area {
+    padding: 40px 0;
+    margin-bottom: -134px;
+}
+.slider-single-style .dreamit-header-menu ul li a {
+    color: #fff;
+}
+.slider-content h2{
+	font-size: 45px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.slider-content ul{}
+.slider-content ul li{
+	display: inline;
+}
+.slider-content ul li a{
+	color: #fff;
+	display: inline-block;
+    margin: 0 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/*====================================================
+--<	IT-TECH Section Title Css -->
+======================================================*/
+.section-sub-title h5{
+	color: #9ea9b3;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 15px;
+	letter-spacing: 4px;
+	margin: 0 0 5px;
+}
+.section-main-title h1{
+	font-weight: 100;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-top: 2;
+}
+.section-main-title h2{
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	margin-top: 0;
+	line-height: 1.2;
+	font-weight: 700;
+	font-size: 42px;
+}
+.section-bar {
+	background: #9B50DB none repeat scroll 0 0;
+	height: 2px;
+	margin: 0 auto 5px;
+	width: 62px;
+}
+.text_left .section-bar {
+    margin: 0;
+}
+.section-bar-bg {
+	height: 5px;
+    width: 90px;
+    background: #cbbded;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.section-bar-bg:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #4FA564;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+@-webkit-keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(88px);
+            transform: translateX(88px);
+  }
+}
+@keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(88px);
+            transform: translateX(88px);
+  }
+}
+/*====================================================
+--<	IT-TECH Feature-Area-02 -->
+======================================================*/
+.feature-area{
+}
+.feature-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    margin-top: -160px;
+    padding: 0 20px;
+}
+.dreamit-feature-single {
+	display: flex;
+	position: relative;
+	padding: 64px 0;
+	width: 100%;
+}
+.dreamit-feature-single::before {
+	border-right: 1px solid rgba(255, 255, 255, 0.35);
+	position: absolute;
+	content: "";
+	top:0;
+	right: 0;
+	width: 1px;
+	height: 160px;
+}
+.dreamit-feature-single.b-none::before{
+	display: none;
+}
+.feature-icon{}
+.feature-icon i {
+	font-size: 37px;
+	color: #fff;
+	text-align: center;
+	transition: .5s;
+	margin-right: 15px;
+}
+.feature-title h2 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 0;
+	position: relative;
+}
+.feature-btn i {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-size: 23px;
+}
+.feature-btn i::before {
+	position: absolute;
+	right: 0px;
+	top: -15px;
+	cursor: pointer;
+	opacity: 0;
+	transition: .5s;
+	visibility: hidden;
+}
+.dreamit-feature-single:hover .feature-btn i::before {
+	opacity: 1;
+	visibility: visible;
+	right: -20px;
+	position: absolute;
+}
+/* Feature-Style-Three */
+.feature-style-three .feature-bg {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+}
+.feature-style-three .dreamit-feature-single::before {
+	border-right:0;
+}
+.feature-style-three .dreamit-feature-single:hover .feature-btn i::before {
+	opacity: 0;
+}
+.feature-style-three .dreamit-feature-single {
+	display: inline-block;
+	text-align: center;
+	box-shadow: 6px 5px 30px 0px rgba(0,0,0,0.12);
+	background: #fff;
+	margin-top: -86px;
+	border-radius: 7px;
+	transition: .5s;
+	padding: 60px 0px;
+	position: relative;
+	z-index: 1;
+}
+.feature-style-three .dreamit-feature-single:hover{
+	border-radius: 100%;
+}
+.feature-style-three .dreamit-feature-single::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+	z-index: -1;
+	opacity: 0;
+	transition: .5s;
+}
+.feature-style-three .dreamit-feature-single:hover::before{
+	opacity: 1;
+	border-radius: 100%;
+}
+.feature-style-three .dreamit-feature-single:hover .feature-icon i,
+.feature-style-three .dreamit-feature-single:hover .feature-title h2{
+	color: #ffff;
+}
+.feature-style-three .feature-icon {
+	padding-bottom: 25px;
+}
+.feature-style-three .feature-icon i {
+	font-size: 55px;
+	color: #4FA564;
+	transition: .5s;
+	display: inline-block;
+}
+.feature-style-three .feature-title h2 {
+	font-size: 20px;
+	font-weight: 700;
+	transition: .5s;
+	color: #444;
+}
+/* Feature-Style-Four */
+.feature-style-four.feature-style-three .dreamit-feature-single {
+    border-radius: 0px;
+    padding: 73px 6px 30px;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single:hover {
+    border-radius:0% !important;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single:hover::before {
+    opacity: 0 !important;
+    border-radius: 0 !important;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single::before {
+  display: none;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single:hover .feature-icon i{
+	color: #4FA564;
+}
+.feature-style-four.feature-style-three .feature-icon i {
+    font-size: 50px;
+}
+.feature-style-four.feature-style-four.feature-style-three .dreamit-feature-single:hover .feature-title h2{
+	color:#444;
+}
+.feature-style-four.feature-style-three .feature-title h2 {
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single:hover .feature-text p{
+	color:#666;
+}
+.feature-style-four.feature-style-three .dreamit-feature-single .feature-text p{
+	color:#666;
+}
+.feature-text {
+    margin-top: 20px;
+}
+/* Flip Box */
+.feature-style-four .flip-box-back {
+    background: linear-gradient(rgba(26, 31, 53, 0.86), rgba(26, 31, 53, 0.86)), url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax859f.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F02%2Fabout-img-450x450.jpg) center center / cover no-repeat scroll transparent !important;
+    padding-top: 100px;
+    transform: rotateY(180deg);
+    margin-top: -86px;
+}
+.feature-style-four .flip-box-button {
+    padding: 25px 0 !important;
+}
+.feature-style-four .flip-box-button a {
+    color: #fff;
+    padding: 9px 25px;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    transition: .3s;
+    margin-top: 4px;
+    background: #4FA564;
+    border: 0;
+    border-radius: 3px;
+}
+.feature-style-four .flip-box-button a:hover{
+	color: #4FA564 !important;
+	background-color: #ffffff !important;
+}
+/* Feature-Style-Five */
+.feature-style-five .dreamit-feature-single {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+.feature-style-five .feature-icon i {
+    color: #fff;
+}
+.feature-style-five.feature-style-four.feature-style-three .feature-title h2{
+    color: #fff;
+}
+.feature-style-five.feature-style-four.feature-style-three .feature-title h2:hover {
+    color: #fff;
+}
+.feature-style-five.feature-style-four.feature-style-three .dreamit-feature-single .feature-text p{
+    color: #fff;
+}
+.feature-style-five.feature-style-three .dreamit-feature-single:hover .feature-icon i,
+.feature-style-five.feature-style-three .dreamit-feature-single:hover .feature-title h2{
+	color: #ffff !important;
+}
+.feature-style-five.feature-style-four .flip-box-button a:hover {
+    color: #fff;
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+.feature-style-five .flip-box-button a:hover {
+    color: #fff !important;
+    border-color: #ffffff;
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+.feature-style-five.feature-style-four .flip-box-button a {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+/* feature-style-six */
+.feature-style-six {
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+.section-text2{
+	margin-top: 25px;
+	margin-bottom: 14px;
+}
+.section-text2 p {
+	width: 84%;
+	font-weight: 300;
+}
+.feature-style-six .section-button a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background: #4FA564;
+    text-transform: capitalize;
+    border: 2px solid #4FA564;
+    border-radius: 5px;
+    padding: 15px 41px 12px 41px;
+    margin-top: 30px;
+    transition: .5s;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    width: inherit;
+}
+.feature-style-six .section-button a:before{
+	position:absolute;
+	content:"";
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	left:0px;
+	background: #fff;
+	top: 0;
+	transition: .3s;
+	color: #4FA564;
+}
+.feature-style-six .section-button a:hover:before{
+	width: 100%;
+}
+.feature-style-six .section-button a:hover{
+	color:#4FA564 ;
+}
+.feature-style-six  .section-button a i {
+    margin-left: 8px;
+}
+.feature-style-six .flip-box {
+    background-color: transparent;
+    width: 253px;
+    height: 230px;
+	-webkit-perspective: 1000px;
+}
+.feature-style-six.feature-style-three .feature-icon i {
+    font-size: 40px;
+}
+.feature-style-six .section-text p {
+    color: #616161 !important;
+    width: 35%;
+    margin: auto;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: left;
+    width: 80%;
+    font-weight: 500;
+    margin: 13px 0 0;
+}
+.flip-box-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.flip-box-content p {
+    margin: auto;
+    color: #616161;
+    width: 86%;
+}
+.feature-style-six .dreamit-feature-single {
+    margin-top: 0px;
+    padding: 60px 35px !important;
+}
+.feature-style-six .flip-box-back {
+	padding-top: 37px;
+	background: #fff !important;
+	height: 202px !important;
+    margin-top: 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+}
+
+
+/*====================================================
+--<	IT-tech  About Area Css -->
+======================================================*/
+.dreamit-about-area{
+	padding: 100px 0px;
+}
+.dreamit-about-thumb {
+	padding-right: 45px;
+	display: inline-block;
+}
+.dreamit-about-thumb img {
+	width: 100%;
+	border-radius: 5px;
+}
+.dreamit-about-box{}
+.dreamit-about-box:hover .dreamit-content-title h2:after{
+	width:100%;
+}
+.box-two{
+	display: flex;
+	margin-bottom: 16px;
+}
+.about-icon{}
+.about-icon i{
+	color: #4FA564;
+	font-size: 50px;
+}
+.icon-two{}
+.icon-two i {
+	font-size: 29px;
+	color: #4FA564;
+}
+.section-title {
+	padding-bottom: 45px;
+}
+.dreamit-content{}
+.dreamit-content-title{}
+.dreamit-content-title h2{
+	font-size: 20px;
+	margin: 25px 0 34px;
+	position: relative;
+}
+.text-style-two{
+	margin-top: 35px;
+}
+.text-style-two p{
+	font-size: 21px;
+	font-weight: 300;
+	color: #232323;
+}
+.section-title-text-two {
+	padding-top: 4px;
+}
+.section-title-text-two p {
+	font-weight: 300;
+}
+.text_left{
+	padding-bottom: 25px;
+}
+.dreamit-content-title h2:before{
+	position:absolute;
+    bottom: -17px;
+    left: 0;
+    width: 100%;
+    content: "";
+    background: #ddd;
+    height: 3px;
+    transition: .3s;
+}
+.dreamit-content-title h2:after{
+	position: absolute;
+	bottom: -17px;
+	left: 0;
+	width: 0%;
+	content: "";
+	background: #4FA564;
+	height: 3px;
+	transition: .3s;
+}
+.section-title-text{
+	margin-top: 45px;
+}
+.about-box-button a{
+	color: #fff;
+	position:relative;
+	z-index: 1;
+	background: #4FA564;
+	text-transform: capitalize;
+	border: 2px solid #4FA564;
+	border-radius: 5px;
+	padding: 12px 40px 12px 40px;
+	margin-top: 30px;
+	transition:.5s;
+	display: inline-block;
+	color:#fff;
+	font-weight: 500;
+}
+.about-box-button a:hover:after{
+	width:100%;
+}
+.about-box-button a:hover{
+	color: #4FA564;
+}
+.about-box-button a:after{
+	position:absolute;
+	content:"";
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	right:0px;
+	background: #fff;
+	top: 0;
+	transition: .3s;
+	color: #4FA564;
+}
+.about-box-button a i{
+	margin-left: 5px;
+}
+.text-two {
+	padding-left: 26px;
+}
+.text-two p{
+	font-weight: 300;
+}
+.button-two a{
+	margin-top: 14px;
+}
+/* About-Style-Two */
+.about-style-two .dreamit-counterup-content {
+	background: #4FA564;
+	display: inline-block;
+	text-align: center;
+	padding: 35px 25px;
+	border-radius: 7px;
+	position: absolute;
+	bottom: -47px;
+	z-index: 1;
+	right: 0;
+}
+.about-style-two .counterup-text h1{
+	font-size: 40px;
+	display: inline-block;
+	font-weight: 500;
+	margin: 0;
+	font-family: "Rubik",Sans-serif;
+}
+.about-style-two .counterup-text h3 {
+	font-size: 40px;  
+	display: inline-block;
+	font-weight: 800;
+	margin: 0;
+	font-family: "Rubik",Sans-serif;
+}
+.about-style-two .conuterup-title{}
+.about-style-two .conuterup-title h4{
+	text-transform: capitalize;
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: 500;
+	letter-spacing: 0;
+}
+/* About-Style-Three */
+.about-style-three .dreamit-about-area{
+	padding-bottom: 100px !important;
+}
+.about-style-three .about-box-button a{
+	color: #fff;
+	position:relative;
+	z-index: 1;
+	background: #4FA564;
+	text-transform: capitalize;
+	border: 2px solid #4FA564;
+	border-radius: 5px;
+	padding: 12px 40px 12px 40px;
+	margin-top:0;
+	transition:.5s;
+	display: inline-block;
+	color:#fff;
+	font-weight: 500;
+}
+.about-style-three .about-box-button a::after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	left: 0;
+	background: #fff;
+	top: 0;
+	transition: .3s;
+	color: #4FA564;
+}
+.about-style-three .about-box-button a:hover:after{
+	width:100%;
+}
+.about-style-three .about-box-button a:hover{
+	color: #4FA564;
+}
+.about-style-three .section-title-text p {
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+.about-style-three .section-title-text-two p {
+	margin-bottom: 28px;
+}
+.about-style-three .section-title-text-three p {
+	font-weight: 300;
+}
+/* About-Style-Four */
+.about-style-four.dreamit-about-area {
+    padding-top: 0px !important;
+    padding-bottom: 100px;
+}
+.about-style-four .about-box-button a{
+	color: #fff;
+	position:relative;
+	z-index: 1;
+	background: #4FA564;
+	text-transform: capitalize;
+	border: 2px solid #4FA564;
+	border-radius: 5px;
+	padding: 16px 40px 12px 40px;
+	margin-top:0;
+	transition:.5s;
+	display: inline-block;
+	color:#fff;
+	font-weight: 500;
+}
+.about-style-four .about-box-button a::after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	left: 0;
+	background: #fff;
+	top: 0;
+	transition: .3s;
+	color: #4FA564 !important;
+}
+.about-style-four .about-box-button a:hover:after{
+	width:100%;
+}
+.about-style-four .about-box-button a:hover{
+	color: #4FA564;
+}
+/* About-Style-Five */
+.about-style-five.dreamit-about-area {
+    padding-bottom: 100px;
+}
+.about-style-five.about-style-two .dreamit-counterup-content {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+.about-style-five.about-style-four .about-box-button a {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+}
+/*====================================================
+--<	IT-tech  Brand Area Css -->
+======================================================*/
+.brand-single-style.brand-area {
+    padding-bottom: 40px;
+    background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0% 0%/auto repeat scroll;
+    padding-top: 40px;
+}
+.border-top{
+	border-top: 2px solid #fff;
+}
+.dreamit-brand{
+	transition: .3s;
+}
+.dreamit-brand-thumb img{
+	filter:gray;
+	-webkit-filter: grayscale(1);
+	transition: .3s;
+	width: 100%;
+}
+.dreamit-brand:hover .dreamit-brand-thumb img{
+	filter:none;
+	-webkit-filter:grayscale(0);
+}
+/*====================================================
+--<	IT-tech  Why-Choose-Area Css -->
+======================================================*/
+.why-choose-Area {
+	background: linear-gradient(rgba(26, 31, 53, 0.86), rgba(26, 31, 53, 0.86)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxbe0e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fslider_bg.jpg) center center/cover no-repeat scroll;
+	background-size: cover;
+	padding: 100px 0 200px;
+}
+.why-style-two{
+	background: url(assets/images/why-choose.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-bottom: 90px;
+	background-size: cover;
+	}
+	.inner {
+		background: linear-gradient(rgba(26, 31, 53, 0.96), rgba(26, 31, 53, 0.96)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax3423.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F02%2Fabout-img-1.jpg) center center/cover no-repeat scroll !important;
+		padding: 50px 50px;
+		display: inline-block;
+		margin-top: -135px;
+	}
+	.mr-0{
+		margin: 0;
+	}
+	.align {
+		padding-bottom: 62px;
+	}
+.dreamit-why-choose-box {
+    background: rgba(255, 255, 255, 0.05);
+    transition: .5s;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 42px 25px 25px 25px;
+}
+.dreamit-why-choose-box:hover{
+	background-color: #2620be;
+}
+.why-choose-sub-title {
+	padding-left: 25px;
+	margin-top: -20px;
+}
+.why-choose-icon i{
+	color: #fff;
+	font-size: 45px;
+}
+.why-choose-title{}
+.why-choose-title h5 {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-family: 'Rubik', sans-serif;
+}
+.why-choose-text{
+	color: #fff;
+}
+.why-choose-text p{
+	color: rgba(254, 254, 254, 0.60);
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+/* Style-Two */
+.dreamit-single-appointment-box {
+	background: rgba(255, 255, 255, 0.05);
+	padding: 50px 50px 70px;
+	border-radius: 7px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+	text-align: right;
+}
+.appoinrment-form-title{}
+.appoinrment-form-title h2 {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 10px;
+	margin-top: 0;
+	text-align: center;
+}
+.appoinrment-form-title p {
+	color: rgba(255,255,255,0.70);
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.dreamit-single-appointment-box .form_box input {
+    background: rgba(0,0,0,0.20);
+    border: 1px solid rgba(255,255,255,0.05);
+    height: 54px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.dreamit-single-appointment-box .form_box input::placeholder{
+	color:#6c757d!important;
+	font-size: 16px;
+}
+.dreamit-single-appointment-box .quote_btn button {
+	background: #4FA564;
+	text-align: center;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 0px;
+	border-radius: 4px;
+	transition: .3s;
+	color: #fff;
+	width: 100%;
+	cursor: pointer;
+	border: 0;
+}
+.dreamit-single-appointment-box .quote_btn button:hover{
+	background: #2772EE;
+	color: #fff;
+}
+/* Why-Style-Three */
+.why-style-three.why-choose-Area {
+    background: transparent !important;
+    padding-top: 0 !important;
+    padding-bottom: 100px !important;
+}
+.why-style-three .dreamit-why-choose {
+    margin-bottom: 50px;
+}
+.why-style-three .dreamit-why-choose-box{
+	background: transparent;
+	transition:.5s;
+	border-radius: 0;
+	margin-bottom: 20px;
+	padding:0;
+	display: block;
+	text-align: right;
+}
+.why-style-three .dreamit-why-choose-box:hover{
+	background-color: transparent;
+}
+.why-style-three .why-choose-icon {
+    float: right;
+}
+.why-style-three .why-choose-icon i {
+    color: rgb(12, 90, 219);
+    font-size: 50px;
+    font-weight: 400;
+	margin-left: 19px;
+	margin-top: 8px;
+}
+.why-style-three .why-choose-title h5::before {
+    position: absolute;
+    content: "";
+    background: rgb(209, 209, 209);
+    height: 1px;
+    width: 100px;
+    top: 35px;
+    right: 70px;
+}
+.why-style-three .why-choose-title h5 {
+    color: #232323 !important;
+    margin-bottom: 20px !important;
+}
+.why-style-three .why-choose-title h5 {
+	color: #232323 !important;
+	position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: Rubik, sans-serif;
+}
+.why-style-three .why-choose-text p {
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 75%;
+    color: rgb(97, 97, 97) !important;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.why-style-three .service-button {
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 11px;
+}
+.why-style-three .service-button a{
+	color: #2772EE;
+	display: inline-block;
+	transition: .3s;
+}
+.why-style-three .service-button a i {
+	color: #2772EE;
+	display: inline-block;
+	margin-left: 5px;
+	opacity: 0;
+	transition: .3s;
+}
+.why-style-three .service-button a:hover i{
+	opacity: 1;
+}
+.why-style-three .why-thumb{}
+.why-style-three .why-thumb img{
+	width: 100%;
+}
+.dreamit-two .why-choose-icon {
+    float: left;
+	margin-top: 20px;
+	margin-right: 19px;
+}
+.dreamit-two .dreamit-why-choose-box {
+    text-align: left;
+}
+.dreamit-two .why-choose-title h5::before {
+    left: 70px;
+}
+.dreamit-two .why-choose-text p {
+    margin-left: 63px;
+}
+.dreamit-two .service-button {
+    text-align: left;
+    margin-left: 66px;
+}
+/* why-single-style */
+.why-single-style.why-choose-Area{
+	padding-top: 100px !important;
+}
+/*====================================================
+--<	IT-TECH Faq-Area Css -->
+======================================================*/
+.faq-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0%;
+	padding: 69px 0 230px;
+}
+i.fas.fa-angle-down.rotate-icon {
+    float: right;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border: 1px solid #ddd;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    border-bottom: 0;
+    border-right: 0;
+    border: 0;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border: 1px solid #ddd;
+    margin-bottom: 18px;
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    margin-bottom: 18px;
+}
+.dreamit-single-faq-items{}
+.faq-text {
+	margin-bottom: 30px;
+}
+.faq-text p{}
+.faq-text-2{}
+.faq-text-2 p{}
+.faq-button{}
+.faq-button a{
+	display: inline-block;
+	position: relative;
+	color: #ffffff;
+	background: #4FA564;
+	font-family: Rubik;
+	font-weight: 500;
+	text-transform: capitalize;
+	border: 2px solid #4FA564;
+	border-radius: 5px 5px 5px 5px;
+	padding: 14px 40px 14px 40px;
+	margin-top: 30px;
+	z-index:1;
+}
+
+.faq-button a:hover{
+	color: #4FA564;
+}
+.faq-button a:after{
+	position: absolute;
+	top: 0;
+	content: "";
+	left: 0;
+	background-color: #fff;
+	height: 100%;
+	width:0;
+	opacity: 0;
+	z-index:-1;
+	transition: .5s;
+}
+.faq-button a:hover:after{
+	width: 100%;
+	opacity:1;
+}
+.faq-thumb img{
+	width: 100%;
+}
+/*====================================================
+--<	IT-TECH Counterup Area Css -->
+======================================================*/
+.counterup-bg {
+    background: #0C5ADA;
+    margin-top: -135px;
+    padding: 62px 30px 72px 30px;
+    border-radius: 7px;
+    position: relative;
+}
+.counterup-content{
+	text-align: center;
+	border-right:1px solid rgba(255, 255, 255, 0.25);
+}
+.bd-none{
+	border: none;
+}
+.counterup-icon{
+	margin-bottom: 5px;
+}
+.counterup-icon i {
+	font-size: 45px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.counterup-sub-title{}
+.counterup-title h1{
+	font-size: 40px;
+	display: inline-block;
+	font-weight: 500;
+	font-family: "Rubik",Sans-serif;
+	color: #fff;
+}
+.counterup-title h3{
+	font-size: 40px;
+	display: inline-block;
+	font-weight: 800;
+	margin: 0;
+	font-family: "Rubik",Sans-serif;
+	color: #fff;
+}
+.counterup-tex{}
+.counterup-text h4{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: 500;
+	letter-spacing: 0;
+}
+
+/* Counterup Style Three */
+.counterup-style-three .counterup-bg {
+    margin-top: -102px;
+	padding: 55px 30px !important;
+}
+.style-three.counterup-area{
+	background:transparent !important;
+}
+/* counterup-style-six */
+.counterup-style-six.counterup-area {
+    background: linear-gradient(rgba(12, 90, 219, 0.81), rgba(12, 90, 219, 0.81)), url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxbe0e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fslider_bg.jpg) 0% 0% / cover repeat fixed transparent;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.counterup-style-six .counterup-bg {
+    background: transparent;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 7px;
+}
+/* single-about */
+.counter-single-style .counterup-bg {
+    background: #4FA564;
+    margin-top: 0;
+    padding: 45px 30px 45px 30px;
+    border-radius: 7px;
+}
+/*====================================================
+--<	IT-TECH Service Area Css -->
+======================================================*/
+.service-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 97px;
+	padding-bottom: 70px;
+}
+.service-style-two.service-area {
+	padding-top: 97px;
+	padding-bottom: 230px;
+}
+.dreamit-service-box {
+    padding: 60px 36px 36px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.dreamit-service-box:before{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	content: '';
+	z-index: -1;
+	border-radius: 5px;
+	transition: 0.5s;
+	background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+}
+.dreamit-service-box:hover:before{
+	height: 100%;
+}
+.dreamit-service-box:hover .service-box-icon i,
+.dreamit-service-box:hover .service-box-content h2,
+.dreamit-service-box:hover .service-box-text p,
+.dreamit-service-box:hover .service-box-button a{
+	color: #fff;
+}
+.service-box-icon{}
+.service-box-icon i{
+	font-size: 60px;
+	display: inline-block;
+	color: #4FA564;
+	transition: .5s;
+	margin-bottom: 40px;
+}
+.service-box-content{}
+.service-box-content h2{
+	transition: .5s;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.service-box-text p{
+	transition: .3s;
+}
+.service-box-button{}
+.service-box-button a {
+	color: #4FA564;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: .5s;
+}
+.service-box-button a i{
+	margin-left: 4px;
+	font-size: 13px;
+}
+/* service-style-three */
+.service-style-three.service-area{
+	background:linear-gradient(rgba(26, 31, 53, 0.86), rgba(26, 31, 53, 0.86)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxbe0e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fslider_bg.jpg) center center/cover no-repeat scroll;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.service-style-three .dreamit-service-box:before{
+	position: absolute;
+	width: 0%;
+	height: 0;
+	left: 0;
+	bottom: 0;
+	content: '';
+	z-index: -1;
+	border-radius: 0px;
+	transition: 0.5s;
+	background: transparent;
+}
+.service-style-three .dreamit-service-box:hover:before{
+	height:0%;
+	display: none;
+}
+.service-style-three .dreamit-service-box:hover .service-box-icon i,
+.service-style-three .dreamit-service-box:hover .service-box-content h2,
+.service-style-three .dreamit-service-box:hover .service-box-text p,
+.service-style-three .dreamit-service-box:hover .service-box-button a{
+	color:#fff;
+}
+.service-style-three .dreamit-service-box {
+    padding: 32px 25px 14px;
+    position: relative;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+    margin-bottom: 32px;
+    overflow: hidden;
+}	
+.service-style-three .service-box-icon i{
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	transition: .5s;
+	text-align: center;
+	font-size: 42px;
+	background: #4FA564;
+	border-radius: 35% 65% 61% 39% / 32% 33% 67% 68%;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 33px;
+}
+.service-style-three .service-box-content{}
+.service-style-three .service-box-title h2{
+	color:#fff;
+}
+.service-style-three  .service-box-text p{
+	color: #fff;
+}
+.service-style-three .service-thumb {
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+	transition:1s;
+}
+.service-style-three .dreamit-service-box:hover .service-thumb{
+	opacity: 1;
+	bottom: 0;
+}
+.service-style-three .service-thumb img{
+	width: 100%;
+	border-radius: 7px;
+}
+.service-style-three .service-button{
+	position: absolute;
+	bottom:-100%;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	transition: 2s;
+	z-index: 1;
+}
+.service-style-three .dreamit-service-box:hover .service-button{
+	opacity: 1;
+	bottom: -40%;
+}
+.service-style-three .service-button a{
+	color: #fff;
+	transition: .5s;
+	background: #4FA564;
+	padding: 10px 25px;
+	display: inline-block;
+	border-radius: 4px;
+}
+.service-style-three .service-button a:hover{
+	background: #fff;
+	color: #4FA564;
+}
+/* Service-Style-Four */
+.service-style-four.service-area {
+    padding-bottom: 95px;
+}
+.service-style-four .service-button a {
+    color: #ffffff;
+    background: #4FA564;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #4FA564;
+    border-radius: 5px;
+    padding: 14px 45px;
+    display: inline-block;
+	margin-top: 23px;
+	transition: .5s;
+	position: relative;
+	z-index: 1;
+}
+.service-style-four .service-button a:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: #fff;
+	width: 0%;
+	transition: .5s;
+	z-index: -1;
+}
+.service-style-four .service-button a:hover:before{
+	width: 100%;
+}
+.service-style-four .service-button a:hover{
+	color: #4FA564;
+}
+.service-style-four .dreamit-service-box {
+    padding: 0;
+    position: relative;
+    background: transparent;
+    margin-bottom: 0;
+    margin-left: 0 !important;
+}
+.service-style-four .dreamit-service-box:before{
+	display: none;
+}
+.service-style-four .dreamit-service-box:hover:before {
+    height: 0;
+}
+.service-style-four .dreamit-service-box:hover .service-box-content h2{
+	color:#fff;
+}
+.service-style-four .service-thumb{
+    background: linear-gradient(rgba(26, 31, 53, 0.80), rgba(26, 31, 53, 0.80)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax47f4.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase5-1.jpg) center center/cover no-repeat scroll;
+    padding-top: 155px;
+}
+.service-style-four .service-thumb2{
+    background: linear-gradient(rgba(26, 31, 53, 0.80), rgba(26, 31, 53, 0.80)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax293d.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase1-450x450.jpg) center center/cover no-repeat scroll;
+    padding-top: 155px;
+}
+.service-style-four .service-thumb3{
+    background: linear-gradient(rgba(26, 31, 53, 0.80), rgba(26, 31, 53, 0.80)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax34af.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase4-1-450x450.jpg) center center/cover no-repeat scroll;
+    padding-top: 155px;
+}
+.service-style-four .service-thumb4{
+    background: linear-gradient(rgba(26, 31, 53, 0.80), rgba(26, 31, 53, 0.80)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax617b.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase3-1-450x450.jpg) center center/cover no-repeat scroll;
+    padding-top: 155px;
+}
+.service-style-four .service-thumb i{
+	color: #fff !important;
+	font-size: 55px !important;
+}
+.service-style-four .service-thumb2 i{
+	color: #fff !important;
+	font-size: 55px !important;
+}
+.service-style-four .service-thumb3 i{
+	color: #fff !important;
+	font-size: 55px !important;
+}
+.service-style-four .service-thumb4 i{
+	color: #fff !important;
+	font-size: 55px !important;
+}
+.service-style-four .dreamit-service-box .service-box-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    padding-bottom: 53px;
+    color: rgb(255, 255, 255) !important;
+}
+/* Flip Box */
+.flip-box-text {
+    padding: 30px 7px 0px;
+}
+.flip-box-button{}
+.flip-box-button a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    transition: .3s;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.flip-box-button a:hover{
+	color: #5b3bff;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+.flip-box {
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+    margin-left: 0;
+}
+.service-style-four .flip-box {
+    background-color: transparent;
+    width: 260px;
+    height: 300px;
+    perspective: 1000px;
+}
+ .flip-box-inner {
+	position: relative;
+	width:100%;
+	height: 100%;
+	transition:1s;
+	transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+  }
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  .flip-box-back {
+	background: linear-gradient(#4FA564, #4FA564) !important;
+	transform: rotateY(180deg);
+	color: #fff;
+    padding-top: 50px;
+} 
+/* Service-Style-Five */
+.service-style-five{}
+.service-style-five.service-style-four .service-button a {
+    background: linear-gradient(160deg, #141fff, #626aff), #4FA564;
+}
+.service-style-five  .flip-box-back {
+    background: linear-gradient(360deg, #111cff, #676fff) !important;
+}
+.service-style-five .service-thumb {
+    background: linear-gradient(360deg, rgba(17, 28, 255, 0.80), rgba(103, 111, 255, 0.53)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax47f4.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase5-1.jpg) center center/cover no-repeat scroll;
+}
+.service-style-five .service-thumb2 {
+    background: linear-gradient(360deg, rgba(17, 28, 255, 0.80), rgba(103, 111, 255, 0.53)), transparent url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/case1-450x450.jpg) center center/cover no-repeat scroll;
+}
+.service-style-five .service-thumb3 {
+    background: linear-gradient(360deg, rgba(17, 28, 255, 0.80), rgba(103, 111, 255, 0.53)), transparent url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/case4-1-450x450.jpg) center center/cover no-repeat scroll;
+}
+.service-style-five .service-thumb4 {
+    background: linear-gradient(360deg, rgba(17, 28, 255, 0.80), rgba(103, 111, 255, 0.53)), transparent url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/case3-1-450x450.jpg) center center/cover no-repeat scroll;
+}
+/* service-style-six */
+.service-style-six.service-area {
+	background: transparent;
+	padding-bottom: 75px;
+}
+.service-style-six .flip-box-back {
+    transform: rotateY(180deg);
+    padding-top: 20px;
+    height: 242px;
+    border-radius: 7px;
+}
+.service-style-six .flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+}
+.service-style-six .service-flip-box-icon {
+    margin-bottom: 35px;
+}
+.service-style-six .service-flip-box-icon i {
+    color: #4FA564;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.service-flip-box-title{}
+.service-style-six .service-flip-box-title h2{
+	color: #444 !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+.service-style-six .dreamit-service-box {
+    padding: 0;
+    position: relative;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    padding: 85px 40px 55px 40px;
+}
+.service-style-six .flip-box {
+	width: 350px;
+	height: 272px;
+}
+.service-style-six .service-flip-box-title h3{
+	color: #fff !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+.service-style-six .flip-box-text {
+	padding: 10px 0;
+}
+.service-style-six .flip-box-text p {
+    width: 90%;
+    margin: 0 auto;
+}
+.service-style-six .flip-box-button {
+    padding-top: 7px;
+}
+.service-style-six .flip-box-button a{
+	color: #4FA564;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #4FA564;
+    border-radius: 4px;
+	padding: 10px 25px 10px 25px;
+	text-transform:uppercase;
+	font-size: 12px;
+	transition: .3s;
+	cursor: pointer;
+}
+.service-style-six .flip-box-button a:hover{
+	color: #ffffff;
+	background: transparent;
+    border-color: #ffffff;
+}
+/* service-single-style */
+.service-single-style2.service-area{
+	padding-bottom: 200px !important;
+}
+.two.service-area {
+    padding-bottom: 75px !important;
+    background: transparent;
+}
+.service-single-style .dreamit-service-box:hover .service-box-icon i{
+	color:#4FA564 ;
+}
+.service-single-style .dreamit-service-box:hover .service-box-title h2{
+	color: #444;
+}
+.service-single-style .dreamit-service-box:hover .service-box-text p{
+    color:#616161;
+}
+.service-single-style .dreamit-service-box {
+    padding: 0;
+    position: relative;
+    background: transparent;
+    border-radius: 7px;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.service-single-style .dreamit-service-box:before{
+	display: none;
+}
+.service-single-style .dreamit-service-box:hover:before{
+	height:0%;
+}
+.service-single-style .dreamit-service-box {
+    box-shadow: 0 0 15px rgba(51,51,51,0.1);
+	padding: 20px 20px 12px 20px;
+	transition: .3s;
+	margin-bottom: 30px;
+}
+.service-single-style .dreamit-service-box:hover{
+	box-shadow: 0 0 40px rgba(51,51,51,0.1);
+}
+
+.service-single-style  .service-box-icon i {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.service-single-style  .service-box-title h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #444;
+}
+.service-single-style .service-box-icon {
+    margin-top: 35px;
+}
+.service-single-style .service-box-content {
+	padding-left: 27px;
+	
+}
+
+
+/*====================================================
+--<	IT-TECH Team-Member Area Css -->
+======================================================*/
+.team-member-area{
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+.dreamit-team-member-single{
+	transition: .5s;
+}
+.dreamit-team-member-single:hover{
+	transform: translateY(-10px);
+	overflow: hidden;
+}
+.team-member-conten{}
+.team-member-thumb{
+	position: relative;
+}
+.team-member-thumb::before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: rgba(12,90,219,0.85);
+	content: "";
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	opacity: 1;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	z-index: 1;
+	width: 100%;
+	opacity: 0;
+}
+.dreamit-team-member-single:hover .team-member-thumb::before {
+	opacity:1;
+}
+.team-member-thumb img{
+	width: 100%;
+}
+.team-member-thumb .social-icon{
+	position: absolute;
+	right: -50px;
+	width:50px;
+	background-color: #fff;
+	padding: 12px 0;
+	opacity: 0;
+	visibility: visible;
+	transition: .4s;
+	top: 50%;
+	transform:translateY(-50%);
+	z-index:1;
+}
+.dreamit-team-member-single:hover .team-member-thumb .social-icon{
+	right: 0;
+	width: 50px;
+	opacity: 1;
+	visibility: visible;
+}
+.social-icon a {
+    color: #4FA564;
+    background: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 7px;
+}
+.team-member-content {
+	background: #fff;
+	border-bottom: 4px solid #4FA564;
+	padding: 20px 10px 25px;
+	width: 80%;
+	margin: auto;
+	position: relative;
+	margin-top: -50px;
+	z-index: 1;
+	border-radius: 10px;
+}
+.team-member-content h2{
+	transition:.3s;
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+.team-member-content h5{
+	color: #616161;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* Team Style Two */
+.team-style-two{
+	background:#f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/pattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+.team-style-two .team-member-thumb img{
+	border-radius:100%;
+}
+.team-style-two .team-member-thumb::before {
+    border-radius: 100%;
+}
+.team-style-two .team-member-thumb {
+    border: 2px solid rgba(12,90,219,0.85);
+    border-radius: 100%;
+    padding: 15px;
+}
+.team-style-two .team-member-content {
+	background: transparent;
+	border-bottom: 0;
+	padding: 0;
+	width: 100%;
+	position: absolute;
+	margin-top: 0;
+	border-radius: 0;
+	left: 0;
+	right: 0;
+	top: 45%;
+	opacity: 0;
+	transition: .5s;
+}
+.team-style-two .dreamit-team-member-single:hover .team-member-content {
+	opacity:1;
+	top:50%;
+	transform:translateY(-50%);
+}
+.team-style-two .social-icon a {
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    margin: 0 5px;
+    display: inline-block;
+    margin-top: 0;
+}
+.team-style-two .team-member-sub-title {
+	padding-bottom: 15px;
+	text-transform: capitalize;
+}
+.team-style-two .dreamit-team-member-single:hover{
+	transform: translateY(0px);
+	overflow: hidden;
+}
+/* style-three */
+.style-three.team-member-area {
+	padding-top: 0px !important;
+}
+/* team-style-five */
+.team-style-five .team-member-thumb::before {
+    background: linear-gradient(360deg, rgba(17, 28, 255, 0.80), rgba(103, 111, 255, 0.53));
+}
+/* team-single-style */
+.team-single-style .dreamit-team-member-single {
+    transition: .5s;
+    margin-top: 30px;
+}
+.team-single-style.team-style-two{
+    background: transparent !important;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+/* single-team-area */
+.single-team-area.team-member-area{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.team-bg {
+    box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+    padding: 50px;
+}
+.single-team-thumb img{
+	width: 100%;
+}
+.team-info {
+    padding-top: 110px;
+    padding-left: 40px;
+}
+.team-info h3{
+	font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.team-info span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #4FA564;
+}
+.team-info ul {
+    list-style: none;
+    margin-top: 30px;
+}
+.team-info ul li {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.team-info ul li span {
+    color: #616161;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.team-social{}
+.team-social a{
+	display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #4FA564;
+    text-align: center;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.team-title h2 {
+    padding-bottom: 35px;
+}
+.team-bg-2 {
+    box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+	padding: 50px;
+	margin-top: 70px;
+}
+/*====================================================
+--<	IT-TECH Call-To-Action-Area Css -->
+======================================================*/
+.call-to-action-area{
+	background:linear-gradient(rgba(26, 31, 53, 0.62), rgba(26, 31, 53, 0.62)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxbe0e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fslider_bg.jpg) center center/cover no-repeat scroll;
+	background-size: cover;
+	padding: 100px 0 200px;
+}
+/* Video Css */
+.call-to-action-video {
+    position: relative;
+    margin-bottom: 40px;
+}
+.call-to-action .video-icon {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.call-to-action-video.two .video-icon {
+    left: 262px;
+    top: -74px;
+}
+.appointment .call-to-action-video.two .video-icon {
+    left: 0;
+    top: 0;
+}
+.video-icon a {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 500%;
+	position: relative;
+	color: #4FA564;
+	-webkit-animation: ripple-white 1s linear infinite;
+	animation: ripple-blue 1s linear infinite;
+	-webkit-transition: .5s;
+	background: #fff;
+	font-size:28px;
+}
+.video-icon a i {
+	font-size: 25px;
+}
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+.section-text p {
+	color: rgba(255,255,255,0.80);
+	width: 35%;
+	margin: auto;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.call-to-action-box-button a:hover{
+	background-color: #fff;
+	color: #4FA564;
+	border-color: #fff;
+}
+.call-to-action-box-button a {
+	background: #4FA564;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 12px 48px;
+	margin-top: 13px;
+}
+/* style-two */
+.call-to-action-box-button-style-two a {
+	background: #4FA564;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 12px 48px;
+	margin-top: 13px;
+}
+.call-to-action-box-button-style-two a:hover{
+	background-color: #fff;
+	color: #4FA564;
+	border-color: #fff;
+}
+/* style-four */
+.call-style-four {
+background: linear-gradient(360deg, rgba(17, 28, 255, 0.65), rgba(103, 111, 255, 0.37)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxbe0e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fslider_bg.jpg) center center/cover no-repeat scroll;
+padding: 300px 0 100px;
+}
+/*====================================================
+--<	IT-TECH Progress-Area Css -->
+======================================================*/
+.progress-bar-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.progress-bg {
+    background: linear-gradient(rgba(26, 31, 53, 0.95), rgba(26, 31, 53, 0.95)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax4946.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fp9.jpg) center center/cover no-repeat scroll;
+    padding: 50px;
+    margin-top: -160px;
+}
+.skill-item {
+    margin-bottom: 35px;
+    position: relative;
+}
+  .skill-title, .skill-percentage {
+    font-family: Rubik, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+  .skill-percentage {
+	position:absolute;
+	top:0;
+	right: 0;
+  }
+  .count-box {
+    float: left;
+    background: #4FA564 !important;
+    width: 45px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: -10px;
+    color: #fff;
+}
+  .bar-inner {
+	width:100%;
+	height: 4px;
+	background: #d9d9d9;
+	border-radius: 5px;
+	position: relative;
+  }
+  .progress-line{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 4px;
+	background: #4FA564 !important;
+	border-radius: 5px;
+	transition: 3s;
+  }
+  .dreamit-testi-bg-box2{
+	  background: #f00;
+  }
+  /* progress-style-two */
+  .progress-bg2 {
+    margin-top: -155px;
+	}	
+  .progress-style-two .skill-title, .skill-percentage {
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	}
+	.progress-style-two .count-box {
+		color: #fff;
+	}
+/* progress-style-four */
+	.bg4 {
+		background: #fff;
+		padding: 40px;
+	}
+	.progress-style-four .section-title {
+		padding-bottom: 25px;
+	}
+	.progress-thumb img {
+		width: 100%;
+	}
+  .skills-bg{
+	  background: #1a1f35;
+	  padding: 30px 40px;
+  }
+	.progress-style-four .skill-title, .skill-percentage {
+		color: #333;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.progress-style-four .count-box {
+		color: #fff !important;
+	}
+	.progress-style-four .section-text {
+		margin-top: 25px;
+	}
+	.progress-style-four .section-text p {
+		color: #616161;
+		width: 95%;
+		font-size: 16px;
+		margin: 0;
+	}
+	/* style-five */
+	.progress-style-four .progress-line {
+		background: linear-gradient(160deg, #141fff, #626aff), #4FA564 !important;
+	}
+/*====================================================
+--<	IT-TECH Portfolio-Area Css -->
+======================================================*/
+.portfolio-area {
+    padding-top: 97px;
+    padding-bottom: 75px;
+}
+/* Portfolio Nav */
+.portfolio_nav {
+    margin-bottom: 50px;
+}
+.portfolio_menu ul {
+    text-align: center;
+    list-style: none;
+}
+.portfolio_menu ul li {
+    display: inline-block;
+    margin: 0 14px;
+    cursor: pointer;
+}
+.portfolio_menu ul li a{
+    display: block;
+    color:#fff;
+	text-transform:uppercase;
+	position:relative;
+	transition:.5s;
+}
+.portfolio_menu ul li a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 24px;
+    height: 2px;
+    width: 0%;
+    background: #fff;
+	transition:.5s;
+}
+.portfolio_nav ul li {
+	background: transparent;
+	border: medium none;
+	font-size: 18px;
+	line-height: 1;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	text-transform: capitalize;
+	padding: 10px 22px;
+	font-weight: 500;
+	position: relative;
+	margin: 0 3px;
+		margin-bottom: 0px;
+	margin-bottom: 7px;
+	display: inline-block;
+	border: 1px dashed #4FA564;
+	color: #4FA564;
+}
+.portfolio_nav ul li:hover, .portfolio_nav ul li.current_menu_item {
+    color: #fff;
+    background: #4FA564;
+}
+/* Single Portfolio */
+.single_portfolio {
+    overflow: hidden;
+    margin-bottom: 30px;
+	position:relative;
+	transition:.5s;
+}
+.single_portfolio_thumb {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+	transition:.5s;
+}
+.single_portfolio_content {
+	position: absolute;
+	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	right: 20px;
+	bottom: 35px;
+	left: 20px;
+	opacity: 0;
+	background: #4FA564;
+	margin: auto;
+	text-align: left;
+	padding: 22px 25px 30px;
+	border-radius: 5px;
+}
+.single_portfolio_content_inner h2 {
+    font-size: 22px;
+    margin: 0;
+}
+.single_portfolio_content_inner h2 a {
+    display: inline-block;
+    overflow: hidden;
+    font-weight: 600;
+    color: #fff;
+}
+.single_portfolio_thumb img {
+    width: 100%;
+}
+.single_portfolio_content_inner span {
+    color: #fff;
+}
+/* Portfolio Hover */
+.single_portfolio:hover .single_portfolio_thumb {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.portfolio_menu ul li a:hover:before {
+    width: 100%;
+}
+.single_portfolio:hover .single_portfolio_content{
+	opacity: 1;
+	bottom:35px;
+}
+/*====================================================
+--<	IT-TECH Technology-Area Css -->
+======================================================*/
+.technology-area{
+	background: linear-gradient(rgba(26, 31, 53, 0.80), rgba(26, 31, 53, 0.80)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax964e.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fp5.jpg) center center/cover no-repeat scroll;
+	padding-top: 97px;
+	padding-bottom: 70px;
+}
+.dreamit-technology-single-box{
+	background: #4FA564;
+	border: 1px solid #4FA564;
+	margin-bottom: 30px;
+	padding: 37px 15px 37px 15px;
+	text-align: center;
+	transition: .5s;
+}
+.dreamit-technology-single-box:hover{
+	background-color: #ffffff;
+	border-color: #ffffff;
+	border-radius: 100%;
+}
+.dreamit-technology-single-box:hover .technology-box-icon i,
+.dreamit-technology-single-box:hover .technology-box-title h5
+{
+	color:#4FA564 !important;
+}
+.technology-box{}
+.technology-box-icon{
+	margin-bottom:28px;
+}
+.technology-box-icon i{
+	color: #fff;
+	font-size: 50px;
+}
+.technology-box-title h5{
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 0px;
+	font-family: "Rubik",Sans-serif;
+}
+/* tech-style-four */
+.tech-style-four .dreamit-technology-single-box:hover {
+    background-color: #4FA564;
+    border-color: #fff;
+    border-radius: 100%;
+}
+.tech-style-four .dreamit-technology-single-box:hover .technology-box-icon i,
+.tech-style-four .dreamit-technology-single-box:hover .technology-box-title h5 {
+    color: #fff !important;
+}
+/* tech-style-five */
+.tech-style-five .dreamit-technology-single-box {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+    border: none;
+    margin-bottom: 30px;
+    padding: 37px 15px 37px 15px;
+    text-align: center;
+    transition: .5s;
+}
+/*====================================================
+--<	IT-TECH Technology-Area Css -->
+======================================================*/
+.testimonial-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 97px;
+	padding-bottom: 130px;
+}
+.align-left{
+	margin: 0;
+}
+.dreamit-testimonoial-single {
+    text-align: center;
+    background: #fff;
+    padding: 39px 25px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.testi-thumb{
+	display: inline-block;
+	margin: 0 0 20px;
+}
+.testi-thumb img {
+	width: 115px;
+	border-radius: 100%;
+}
+.testi-thumb i {
+	position: relative;
+}
+.testi-thumb i::before {
+	position: absolute;
+	display: inline-block;
+	background-color: #4FA564;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 18px;
+	right: -70px;
+	bottom: 12px;
+}
+.testi-text {
+	margin-bottom: 30px;
+}
+.testi-text p {
+	width: 103%;
+	margin: auto;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+	font-family: Muli;
+}
+.testi-title {
+	position: relative;
+	padding-top: 20px;
+}
+.testi-title::before {
+	position: absolute;
+	content: "";
+	background-color: #4FA564;
+	top: 0;
+	width: 25px;
+	height: 1px;
+	z-index: 1;
+	text-align: center;
+	left: -23px;
+	right: 0;
+	margin: auto;
+}
+.testi-title::after {
+	position: absolute;
+	content: "";
+	background-color: #ddd;
+	width: 50px;
+	height: 1px;
+	top: 0;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.testi-title h2 {
+	font-size: 18px;
+	text-transform: capitalize;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.testi-title h5 {
+	color: #4FA564;
+	font-weight: 500;
+	font-size: 16px;
+	display: block;
+	margin-top: 5px;
+}
+	/* single-style */
+	.progress-style-two .testi-title::after{
+		display: none;
+	}
+	.progress-style-two .testi-title::before{
+		display: none;
+	}
+	.progress-style-two .dreamit-testimonoial-single {
+		background: transparent !important;
+	}
+	.progress-style-two .dreamit-testi-bg-box2{
+		background: linear-gradient(rgba(12, 90, 219, 0.87), rgba(12, 90, 219, 0.87)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax4668.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fcase6.jpg) center center/cover no-repeat scroll;
+
+	}
+	.progress-style-two .dreamit-testimonoial-single {
+		padding: 43px 25px;
+	}
+/*====================================================
+--<	IT-TECH Blog-Area Css -->
+======================================================*/
+.blog-area{
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.dreamit-blog-single-box {
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+	transition: .3s;
+	padding: 15px;
+	margin: 13px;
+}
+.dreamit-blog-single-box:hover{
+	box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+	border-color: transparent;
+}
+.blog-thumb{
+	overflow: hidden;
+	position: relative;
+}
+.blog-thumb a img{
+	width: 100%;
+}
+.blog-meta-top {
+    position: absolute;
+    left: 57px;
+    top: 45px;
+}
+.blog-meta-top ul{list-style: none;}
+.blog-meta-top ul li{display: inline;}
+.blog-meta-top ul li a {
+	display: inline-block;
+	background: #4FA564;
+	padding: 0 15px;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 5px;
+}
+.blog-meta-left {
+	text-align: center;
+	background: #fff;
+	padding: 12px 20px;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 97%;
+	margin: auto;
+	top: -25px;
+	border-radius: 3px;
+}
+.blog-meta-left a {
+	font-size: 14px;
+	position: relative;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-right: 23px;
+}
+.blog-meta-left a::before {
+	position: absolute;
+	width: 1px;
+	height: 14px;
+	background: #616161;
+	right: -15px;
+	top: 5px;
+	content: "";
+}
+.blog-meta-left span{
+	font-size: 14px;
+}
+.blog-title-content{
+	text-align: center;
+}
+.blog-title{
+	
+}
+.blog-title h2{
+	margin-top: 0;
+	line-height: .8;
+}
+.blog-title h2 a{
+	transition: .3s;
+	font-weight: 700;
+	font-size: 21px;
+}
+.blog-text{}
+.blog-text p{
+	margin-top: 15px;
+}
+.blog-button {
+	padding-bottom: 27px;
+}
+.blog-button a {
+	padding: 9px 90px;
+	display: inline-block;
+	border: 1px solid #eee;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	margin-top: 20px;
+	transition: .3s;
+	color: #4FA564;
+}
+.blog-button a:hover{
+	background: #4FA564;
+	border-color: #4FA564;
+	color: #fff;
+}
+/* single-style */
+.single-style.blog-area {
+    padding-top: 100px;
+}
+.single-style .dreamit-blog-single-box {
+    margin-top: 0;
+    padding:0;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.single-style .blog-meta-top {
+    top: 20px;
+}
+.single-style .blog-text p {
+    padding-bottom: 40px;
+}
+.blog-search-box {
+    background: #fff;
+    padding: 35px 30px 35px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+}
+.search-box::placeholder{
+	color: #666;
+	font-size: 17px;
+}
+.search-box {
+    height: 60px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    color: #616161;
+    border-radius: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+.blog-search-box a{
+	display: inline-block;
+}
+.blog-search-box a {
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+	right: 18%;
+	font-size: 18px;
+	color: #616161;
+}
+.single-style .section-bar-bg {
+    height: 3px;
+    width: 90px;
+    background: #aec6ef;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.single-style .section-bar-bg:before {
+    height: 8px;
+    width: 8px;
+}
+.single-style .section-title {
+    padding-bottom: 0 !important;
+}
+.single-style .section-title h2 {
+    color: rgb(35, 35, 35);
+    display: block;
+    font-size: 24px;
+    margin-bottom: -12px;
+}
+.categoris-box{
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 8px;
+	padding: 35px 30px 35px;
+	margin-top: 40px;
+}
+.categoris-items{
+	padding-top: 30px;
+}
+.categoris-items ul{
+	list-style: none;
+}
+.categoris-items ul li {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 16px;
+}
+.categoris-items ul li a{
+	display: inline-block;
+	margin-bottom: 20px;
+	color: #616161;
+	transition: .3s;
+}
+.categoris-items ul li a:hover{
+	color:#4FA564 ;
+}
+.single-style .dreamit-footer-widget-address {
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 8px;
+    padding: 35px 30px 35px;
+    margin-top: 30px;
+}
+.single-style .footer-title h2 {
+    color: #232323;
+}
+.single-style .recent-post-text h4 a {
+    color: #232323;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+.single-style .recent-post-text span {
+    color: #616161 !important;
+    font-size: 15px;
+}
+.tag-items {
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 8px;
+    padding: 35px 30px 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.tag-content{
+	margin-top: 20px;
+}
+.tag-content ul{
+	list-style: none;
+}
+.tag-content ul li{
+	display: inline;
+}
+.tag-content ul li a{
+	color: #616161;
+    display: inline-block;
+    font-size: 15px !important;
+    padding: 5px 8px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 0 2px 9px 0;
+}
+.tag-content ul li a:hover{
+	background:#4FA564 ;
+	color: #fff;
+}
+.Archives-items{
+	box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 8px;
+	padding: 35px 30px 35px;
+}
+.section-title a {
+    margin-bottom: 20px;
+    border-top: 1px solid #e6e6e6;
+    display: inline-block;
+    color: #616161;
+    margin-top: 25px;
+    width: 100%;
+    padding-top: 15px;
+}
+.single-style2 .blog-thumb a img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.single-style2 .blog-title h1 {
+    font-size: 40px !important;
+}
+.single-style2 .blog-meta-left {
+    text-align: left;
+    background: transparent;
+    padding: 12px 0px;
+    box-shadow: none;
+    left: 0;
+    width: inherit;
+    top: 0;
+    border-radius: 3px;
+}
+.single-style2 .blog-meta-left a {
+    font-size: 16px;
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 23px;
+}
+.single-style2 .blog-meta-left span {
+    font-size: 14px;
+    padding-right: 25px;
+}
+.single-style2 .blog-meta-left span a{
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+}
+.single-style2 .blog-meta-left span a::before {
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    background: #616161;
+    left: -14px;
+    top: 5px;
+    content: "";
+}
+.single-style2 .blog-text2 p {
+    padding-bottom: 10px;
+}
+.blog-thumb2 img {
+    width: 100%;
+}
+.blog-thumb2 {
+    padding: 0 40px;
+}
+.blog-thumb2 p {
+    margin-top: 20px;
+}
+.block-quote{
+	padding-left: 50px;
+}
+.block-quote h5 {
+    color: #232;
+    font-weight: 400;
+    font-family: "Rubik",sans-serif;
+    line-height: 1.5;
+}
+.block-quote{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 13px;
+    border-left: 4px solid rgb(12, 90, 219);
+    padding: 10px 30px;
+    font-size: 19px;
+    font-weight: 400;
+    border-radius: 4px;
+    margin: 0px 41px;
+}
+.block-quote p {
+    padding-top: 0;
+    font-size: 16px;
+    color: #616161;
+    padding-left: 0 !important;
+    margin-top: 15px !important;
+}
+.single-style2 .dreamit-blog-single-box h4{
+	padding-left: 38px;
+	margin-top: 20px;
+}
+.single-style2 .dreamit-blog-single-box p {
+    padding-left: 38px;
+    margin-top: 20px;
+}
+.single-style2 .dreamit-blog-single-box ol {
+    padding-left: 55px;
+    margin-top: 20px;
+}
+.single-style2 .dreamit-blog-single-box {
+    margin: 0px 0px 40px;
+    padding: 0px 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 19px;
+}
+.single-style2 .blog-title {
+    padding-top: 20px;
+    padding-left: 38px;
+}
+.single-style2 .blog-meta-left {
+    text-align: left;
+    background: transparent;
+    padding: 12px 0px;
+    box-shadow: none;
+    left: 0;
+    width: inherit;
+    top: 0;
+    border-radius: 3px;
+    padding-left: 45px;
+}
+.single-style2 .dreamit-blog-single-box:hover {
+    box-shadow: 0 !important;
+    border-color: inherit !important;
+}
+.ittech-social-icon {
+    padding-top: 20px;
+    text-align: left;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin: 30px 40px 15px 40px;
+}
+.ittech-single-icon a {
+    border: 1px solid #e6e6e6;
+    color: #565872;
+    display: inline-block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 41px;
+    margin: 0 9px 0 0;
+    text-align: center;
+    width: 40px;
+	border-radius: 5px;
+	transition: .3s;
+}
+.ittech-single-icon {
+    margin-top: 12px;
+}
+.ittech-single-icon a:hover{
+	background: #4FA564;
+    border-color: #4FA564;
+    color: #fff;
+}
+/* comment-area */
+.comment-area{}
+.comment-title {
+	padding-bottom: 25px;
+}
+.comment-title h3 {
+    font-size: 24px;
+}
+.comment-box {
+    height: 54px;
+    background-color: #fff;
+    transition: .5s;
+    border: 1px solid #e6e6e6;
+    padding: 6px 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.comment-box:hover{
+	border-color: 1px solid #f00;
+}
+.cmt-form {
+    width: 100%;
+    height: 54px;
+    border: 1px solid #e6e6e6;
+    padding-left: 20px;
+    background: #fff;
+    margin-bottom: 30px;
+	transition:.3s;
+}
+input:focus, button:focus {
+    border-color: #80bdff;
+    color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+input.cmt-form::placeholder {
+    color: #6c757d;
+    font-size: 16px;
+}
+textarea:focus {
+    border-color: #80bdff;
+    color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.cmt-msg {
+    width: 100%;
+    height: 164px;
+    border: 1px solid #e6e6e6;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#text::placeholder {
+    color: #6c757d !important;
+    font-size: 16px !important;
+}
+.contact-button a {
+    padding: 14px 39px;
+    background: #4FA564;
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.contact-button a:hover{
+	background: #2772EE;
+    color: #fff;
+}
+/* pagination */
+.pagination {
+    padding-top: 45px;
+}
+.page-number{}
+.page-number ul{
+	list-style: none;
+}
+.page-number ul li {
+    display: inline;
+    margin-left: 14px;
+}
+.num{
+	color:#fff;
+	font-size: 16px;
+	background:#4FA564;
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	box-shadow:0 0 5px rgba(0,0,0,0.20);
+}
+.page-number ul li a{
+	display: inline-block;
+	background: #fff;
+	color:#4FA564 ;
+	text-align: center;
+	font-weight: 500;
+	transition: .3s;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	box-shadow:0 0 5px rgba(0,0,0,0.20);
+}
+.page-number ul li a:hover{
+	background: #4FA564;
+	color: #fff;
+}
+
+/*====================================================
+--<	IT-TECH Appointment-Area Css -->
+======================================================*/
+.appointment-area{
+	background: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajaxe3f5.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fbanner1.jpg) center center/cover no-repeat scroll;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.style-three .dreamit-single-appointment-box {
+    background: rgba(12, 90, 219, 0.60);
+}
+.style-three .dreamit-single-appointment-box .form_box input {
+    background: rgba(255,255,255,0.10);
+    color: #fff !important;
+    border: 1px solid rgba(255,255,255,0.09);
+	border-radius: 5px;
+	height: 54px;
+	padding: 10px 20px;
+	font-weight: 400;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.style-three .dreamit-single-appointment-box .form_box input::placeholder{
+	color:#fff !important;
+	font-size: 16px;
+}
+.style-three .dreamit-single-appointment-box .form_box textarea{
+	background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 5px;
+	padding: 10px 20px;
+	font-weight: 400;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.text-area textarea::placeholder{
+	color: #fff;
+	font-size: 16px;
+}
+.style-three .dreamit-single-appointment-box .quote_btn button{
+	background: #fff !important;
+	color:#4FA564 !important;
+	transition:.5s;
+	width: 100%;
+}
+.style-three .dreamit-single-appointment-box .quote_btn button:hover{
+	background: #4FA564 !important;
+	color:#fff !important; 
+}
+/*====================================================
+--<	IT-TECH Footer-Area Css -->
+======================================================*/
+.footer-area{
+	background: #111a3a;
+	padding-top: 55px;
+	padding-bottom: 45px;
+}
+.dreamit-footer-widget-address{}
+.footer-thumb{}
+.footer-thumb img{
+	margin-bottom: 28px;
+}
+.footer-thumb p{
+	font-size: 16px;
+	color: rgba(255,255,255,0.80);
+}
+.footer-social-info{}
+.footer-social-info p{
+	font-size: 16px;
+	color: rgba(255,255,255,0.80);
+}
+.footer-social-info p span{
+	color: rgba(255,255,255,0.80);
+	font-weight: 600;
+}
+.footer-s-inner{}
+.footer-s-inner p{
+	font-size: 16px;
+	color: rgba(255,255,255,0.80);
+}
+.footer-s-inner p span{
+	color: rgba(255,255,255,0.80);
+	font-weight: 600;
+}
+.footer-title{}
+.footer-title h2 {
+	font-size: 22px;
+	margin-bottom: 22px;
+	position: relative;
+	color: #f8f9fe;
+	margin-top: 0;
+}
+.fotter-help-link-menu {
+	padding-top: 12px;
+}
+.fotter-help-link-menu ul{
+	list-style: none;
+}
+.fotter-help-link-menu ul li {
+	margin-bottom: 17px;
+	position: relative;
+	transition: .5s;
+	font-size: 16px;
+	color: #f8f9fe;
+	padding-left: 25px;
+}
+.fotter-help-link-menu ul li::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 14px;
+	background: #f8f9fe;
+	height: 1px;
+	width: 10px;
+	font-size: 14px;
+}
+.fotter-help-link-menu ul li a {
+	color: rgba(255,255,255,0.80);
+	display: inline-block;
+}
+.fotter-help-link-menu ul li a:hover{
+	color: #4FA564;
+}
+.recent-post-items {
+	display: flex;
+	margin-top: 31px;
+}
+.recent-post-thumb {
+	margin-right: 25px;
+}
+.recent-post-thumb a{
+	display: inline-block;
+}
+.recent-post-thumb a img {
+	border-radius: 5px;
+}
+.recent-post-text{}
+.recent-post-text h4 a {
+	color: #fff;
+	display: inline-block;
+	transition: .3s;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+.recent-post-text h4 a:hover{
+	color: #4FA564;
+}
+.recent-post-text span {
+	color: rgba(255,255,255,0.80) !important;
+	font-size: 11px;
+	font-weight: 400;
+}
+.footer-title p {
+	padding-top: 8px;
+	color: #fff;
+}
+.fotter-left-form {
+	background: transparent;
+	position: relative;
+	border: 1px solid #4FA564;
+	margin-bottom: 40px;
+}
+.email-box {
+	background: transparent;
+	border: 1px solid #4FA564;
+	padding: 11px 15px;
+}
+.submit-button {
+	position: absolute;
+	content: "";
+	font-size: 17px;
+	padding: 11px 20px;
+	margin: auto;
+	border: 1px solid #4FA564;
+	text-align: center;
+	background: #4FA564;
+	top: 0px;
+	right: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.footer--sub-title h2 {
+	font-size: 22px;
+	margin-bottom: 26px;
+	position: relative;
+	color: #f8f9fe;
+}
+.fotter-social-icon{}
+.fotter-social-icon a{
+	display: inline-block;
+}
+.fotter-social-icon a i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #fff;
+	text-align: center;
+	border-radius: 100%;
+	color: rgba(255,255,255,0.80);
+	margin-right: 8px;
+	transition: .5s;
+}
+.fotter-social-icon a i:hover{
+	background:#4FA564;
+	border-color: #4FA564;
+	color: #fff;
+}
+.footer-bottom{
+	background: #111a3a;
+}
+.hr{
+	padding: 20px 0;
+	border-top: 1px solid rgba(255,255,255,.23);
+}
+.copy-right-text p {
+	color: #f8f9fe;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.copy-right-menu{}
+.copy-right-menu ul {
+	text-align: right;
+	list-style: none;
+}
+.copy-right-menu ul li{
+	display: inline;
+}
+.copy-right-menu ul li a {
+	color: #f8f9fe;
+	text-transform: capitalize;
+	margin-left: 10px;
+	font-size: 14px;
+}
+/*====================================================
+--<	IT-TECH Index-02 Slider -Area-02 -->
+======================================================*/
+.slider-style-two .slider-content h1,
+.slider-style-two .slider-content h2{
+	font-size: 65px;
+}
+.slider-button{
+	display: inline-block;
+	margin-right: 30px;
+}
+/* Video Css */
+.slider-video {
+    position: relative;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+.slider-video.two .video-icon-02 {
+    left: 262px;
+    top: -74px;
+}
+.appointment .slider-video.two .video-icon-02 {
+    left: 0;
+    top: 0;
+}
+.video-icon-02 a {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 500%;
+	position: relative;
+	color: #fff;
+	-webkit-animation: ripple-white 1s linear infinite;
+	animation: ripple-blue 1s linear infinite;
+	-webkit-transition: .5s;
+	background:#4FA564;
+	font-size:23px;
+}
+.video-icon-02 a i {
+	font-size: 25px;
+}
+.video-icon-02 span{
+	color: #fff;
+	padding-left: 28px;
+	font-size: 18px;
+}
+
+/*====================================================
+--<	IT-TECH Index-02 Case-Study-Area -->
+======================================================*/
+.case-study-area{
+	margin-top: 100px;
+}
+.mb {
+    margin-bottom: 35px;
+}
+.dreamit-case-study-single {
+    padding-bottom: 20px;
+}
+.case-study-thumb{
+	position: relative;
+	margin: 15px;
+}
+.case-study-thumb:before{
+	position: absolute;
+	top: 0;
+	background: rgba(12,90,219,0.85);
+	height: 100%;
+	width: 100%;
+	content: "";
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: 1s;
+}
+.dreamit-case-study-single:hover .case-study-thumb:before{
+	opacity: 1;
+}
+.case-study-thumb img{
+	width: 100%;
+	border-radius: 5px;
+}
+.dreamit-case-study-single:hover .case-study-content{
+	top: 20%;
+	opacity: 1;
+}
+.case-study-content {
+	position: absolute;
+	content: "";
+	top: 30%;
+	text-align: center;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s;
+	z-index: 1;
+}
+.case-study-title{}
+.case-study-title h2 a{
+	display: inline-block;
+	font-size: 20px;
+	color: #ffff;
+	font-weight: 700;
+	margin-top: 0;
+	text-align: center;
+}
+.case-study-sub-title{}
+.case-study-sub-title h5 {
+	text-align: center;
+	color: #ffff;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+/* case-style-six */
+.case-style-six.case-study-area {
+    background: #525252 !important;
+    padding-top: 100px;
+    margin-top: 0px !important;
+    padding-bottom: 80px;
+}
+/*====================================================
+--<	IT-TECH  Pricing-Plan-Area -->
+======================================================*/
+.pricing-plan-area{
+    padding-bottom: 103px;
+}
+.dreamit-single-pricing {
+    text-align: center;
+    transition: .5s;
+	padding: 23px 10px 50px 10px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.dreamit-single-pricing-two {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: .5s;
+    padding: 48px 10px 73px 10px;
+    background: #4FA564;
+    color: #fff !important;
+    transform: translateY(-25px);
+}
+.dreamit-single-pricing-two .curencyp{
+	color: #fff !important;
+}
+.dreamit-single-pricing-two .money{
+	color: #fff !important;
+}
+.dreamit-single-pricing-two .month{
+	color: #fff !important;
+}
+.dreamit-single-pricing-two .pricing-button a{
+	color: #fff !important;
+	border-color:#fff;
+	background: transparent;
+}
+.dreamit-single-pricing-two .pricing-button {
+    margin-top 28px;
+}
+.pricing-thumb{}
+.pricing-thumb img{}
+.pricing-title{}
+.pricing-title h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 35px;
+}
+.pricing-items {
+    margin-bottom: 30px;
+}
+.curencyp{
+	font-size: 20px !important;
+    font-weight: 500 !important;
+    position: relative;
+    top: -15px;
+	color: #616161 !important;
+	font-family: "Merriweather",Sans-serif;
+}
+.money{
+	font-size: 51px;
+    font-weight: 700;
+    text-align: center;
+	color: #232323;
+	font-family: "Merriweather",Sans-serif;
+}
+.month{
+	font-size: 20px !important;
+    font-weight: 500 !important;
+	color: #616161 !important;
+	font-family: "Merriweather",Sans-serif;
+}
+.pricing-body{}
+.pricing-body h3{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7px 0;
+}
+.pricing-body ul{
+	list-style: none;
+}
+.pricing-body ul li {
+    padding: 7px 0;
+    font-weight: 300;
+}
+.pricing-button {
+    margin-top: 28px;
+}
+.pricing-button a{
+	display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 37px;
+	text-transform: capitalize;
+	transition: .3s;
+    color: #4FA564;
+    border: 1px solid #4FA564;
+    border-radius: 3px;
+}
+.dreamit-single-pricing:hover .pricing-button a{
+	color: #fff;
+	background: #4FA564;
+}
+/* style-three */
+.style-three.pricing-plan-area {
+    padding-top: 80px !important;
+}
+/* pricing-style-four */
+.pricing-style-four.pricing-plan-area{
+	padding-top: 100px;
+}
+/* pricing-style-five */
+.pricing-style-five .dreamit-single-pricing-two {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: .5s;
+    padding: 48px 10px 73px 10px;
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff) !important;
+    color: #fff !important;
+    transform: translateY(-25px);
+}
+/* pricing-single-style */
+.pricing-single-style.pricing-plan-area {
+    padding-bottom: 103px;
+    padding-top: 100px;
+}
+/*====================================================
+--<	IT-TECH Work-Process-Area -->
+======================================================*/
+.work-process-area {
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+.dreamit-single-process{
+	text-align: center;
+}
+.process-thumb{
+	border: 3px solid rgba(12,90,219,0.85);
+	border-radius: 50%;
+	display: inline-block;
+}
+.process-thumb img{
+	border-radius: 50%;
+	width: 100%;
+	border: 10px solid #fff;
+}
+.number-process {
+	background: #4FA564;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 16px;
+	position: absolute;
+	transition: .5s;
+	top: 23%;
+	left: 18px;
+	z-index: 1;
+}
+.number-process:before{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	width: 60px;
+	height: 60px;
+	background: #4FA564;
+	opacity: 0.4;
+	content: "";
+	margin: auto;
+	border-radius: 100%;
+	z-index: -1;
+}
+.number-process:after{
+	position: absolute;
+	left: -15px;
+	top: -15px;
+	width: 80px;
+	height: 80px;
+	background: #4FA564;
+	opacity: 0.2;
+	content: "";
+	margin: auto;
+	border-radius: 100%;
+	z-index: -1;
+}
+.dreamit-single-process:hover .number-process{
+	top:15%;
+}
+.process-content{
+}
+.process-title{
+	padding-top: 24px;
+}
+.process-title h1{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.process-text{}
+.process-text p{}.process-text p {
+	width: 80%;
+	margin: auto;
+}
+/* Work-Style-Four */
+.work-style-four.work-process-area{
+	background: #f4f7fc;
+	padding-top: 100px;
+	position: relative;
+}
+.work-style-four.work-process-area:before{
+	position: absolute;
+	right: 0;
+	bottom: -107px;
+	width: 100%;
+	content: "";
+	background:url(assets/images/work-bg.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height: 500px;
+}
+.work-style-four .process-icon i{
+	background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    line-height: 90px;
+    font-size: 40px;
+    border-radius: 4px;
+}
+.work-style-four .number-process {
+    top: 23% !important;
+    left: 58% !important;
+}
+.work-style-four .number-process:before{
+	display: none;
+}
+.work-style-four .number-process:after{
+	display: none;
+}
+.work-style-four .dreamit-single-process:hover .number-process {
+	top: 0%;
+}
+/*====================================================
+--<	IT-TECH Contact-Area -->
+======================================================*/
+.contact-title-area{
+	background: linear-gradient(360deg, rgba(17, 28, 255, 0.65), rgba(103, 111, 255, 0.37)), transparent url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9d84.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F02%2Fvideo_preloader.jpg) center center/cover no-repeat scroll;
+	padding-top: 100px;
+	padding-bottom:250px;
+}
+.contact-area{}
+.contact-bg {
+    background: rgb(255, 255, 255);
+    padding: 40px 15px;
+    box-shadow: 0 16px 32px 0 rgba(228,228,228,.56);
+    position: relative;
+    margin-top: -270px;
+}
+.contact-thumb{}
+.contact-thumb img{
+	width: 100%;
+}
+.contact-form-title h2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 27px;
+}
+.form_box input {
+    background: transparent;
+    border: 1px solid #ced4da;
+    height: 54px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+.form_box input:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form_box textarea{
+	height: 150px;
+	background: transparent;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+.form_box textarea:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+#text::placeholder{
+	color: #232323 !important;
+	font-weight: 16px !important;
+}
+.contact-form .why-choose-input-box::placeholder {
+    color: #6c757d!important;
+    font-size: 17px;
+}
+.quote_btn button {
+    background: #4FA564;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 30px !important;
+    border-radius: 4px;
+    transition: .3s;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.contact-button .button:hover{
+	background: #2772EE;
+}
+/* contact-style-five */
+.contact-style-five .contact-button .button:hover {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+}
+.contact-style-five .contact-button .button {
+    background: linear-gradient(to right, #000dff, #2c34ff, #444bff, #5860ff, #6b73ff);
+}
+
+/*----------------
+============== Start Contact  us Section Style
+------------------*/
+.contact-us .appoinment-title {
+  text-align: left;
+}
+.contact-us .input-box {
+  width: 40%;
+  float: left;
+  margin: 8px 15px;
+  background: #fff;
+}
+.contact-us .appoinment-title {
+  margin: 0 15px;
+} 
+.contact-us .input-box.textarea{
+  width: 85%;
+}
+.contact-us .ap-submit-btn {
+  width: 30%;
+  float: left;
+  margin: 15px;
+}
+.appointment-content {
+  height: 100%;
+}
+.appointment-content .appointment-form {
+  height: 100% !important;
+  padding: 0 0 0 40px;
+}
+.cda-icon i {
+    font-size: 40px;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #4FA564;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.cda-content-inner h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0;
+}
+.cda-content-inner p{
+  color: rgba(255, 255, 255, 0.74);
+  margin: 15px 0;
+}
+.cda-content-area{
+  background: #252628;
+  padding: 20px 0;
+}
+.cda-single-content {
+ margin: 0 45px;
+ padding: 25px 0;
+}
+.contact-us .appoinment-title h3 {
+  margin-bottom: 20px;
+  padding-top: 35px;
+  font-weight: 500;
+}
+.contact-us .input-box {
+  color: #000;
+}
+/*====================================================
+--<	IT-TECH Managed-Area -->
+======================================================*/
+.managed-area{
+	padding-bottom: 80px;
+}
+.managed-title h1 {
+    color: #4FA564;
+    font-size: 170px;
+    font-weight: 800;
+}
+.dreamit-single2 {
+    padding-top: 50px;
+}
+.managed-title2 {
+    border-left: 3px solid #2b64ff;
+    padding-left: 24px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.managed-title2 h4 {
+	font-size: 25px;
+}
+.managed-text {
+    margin-left: 24px;
+    padding-top: 30px;
+}
+.single-style .counterup-bg {
+    background: transparent;
+    margin-top: 0;
+    padding: 62px 30px 72px 30px;
+    border-radius: 7px;
+}
+.single-style.counterup-area {
+    background: transparent;
+    padding: 1px 0px;
+}
+.single-style .counterup-title h1{
+	color: #4FA564 !important;
+}
+.single-style .counterup-text h4{
+	color: #232323!important;
+}
+.single-style .counterup-icon i{
+	color: #4FA564 !important;
+}
+.counterup-title h3{
+	color: #4FA564 !important;
+}
+/*====================================================
+--<	IT-TECH Managed-Area -->
+======================================================*/
+.section-title-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-content/uploads/2020/03/pattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.section-title-area  .section-title {
+    padding-bottom: 15px;
+}
+.section-title-area .section-text p {
+    color: #616161;
+    width: 79%;
+	font-size: 19px;
+	margin: 0;
+}
+.section-title-area .section-main-title h2 {
+    color: #4FA564;
+}
+.section-title-area .section-button {
+    margin-top: 60px;
+}
+.section-title-area .section-button a {
+    background: #4FA564;
+	font-family: Rubik;
+	color: #fff ;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #4FA564;
+    border-radius: 5px;
+	padding: 15px 30px 15px 30px;
+	position: relative;
+	z-index: 1;
+	transition: .5s;
+}
+.section-title-area .section-button a:hover{
+	color:#4FA564 ;
+	background: #fff;
+}
+.section-title-area .section-button a i {
+    font-weight: 700;
+    margin-left: 8px;
+}
+/*====================================================
+--<	IT-TECH Business-Solution-Area -->
+======================================================*/
+.business-solution-area{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.business-solution-area .section-text {
+    margin-top: 15px;
+}
+.business-solution-area .section-text p {
+    color: #616161!important;
+    font-size: 16px;
+    width: 82%;
+}
+.business-solution-button{}
+.business-solution-button a {
+    color: #ffffff;
+	background: #4FA564;
+	display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #4FA564;
+    border-radius: 5px 5px 5px 5px;
+    padding: 11px 30px 11px 30px;
+	margin-top: 15px;
+	position: relative;
+	z-index: 1;
+}
+.business-solution-button a:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0%;
+	background: #fff;
+	transition: .5s;
+	color:#4FA564;
+	z-index: -1;
+}
+.business-solution-button a:hover:after{
+	width: 100%;
+}
+.business-solution-button a:hover{
+	color:#4FA564;
+}
+/*====================================================
+--<	IT-TECH It-Service-Area -->
+======================================================*/
+.it-service-area{
+	background: #f4f7fc url(../../webitkurigram.com/wp/it-tech/wp-admin/admin-ajax9163.php?action=kc_get_thumbn&amp;type=filter_url&amp;id=%2Fwp-content%2Fuploads%2F2020%2F03%2Fpattern-bg.png) 0% 0%/auto repeat scroll;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.single-it-service-box {
+    background: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    padding: 60px 25px 20px;
+    transition: .3s;
+}
+.single-it-service-box:hover{
+	box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+.it-icon{}
+.it-icon i{
+	color: #4FA564;
+	font-size: 55px;
+	display: inline-block;
+}
+.it-content{}
+.it-title{
+	padding-top: 20px;
+}
+.it-title h2{
+	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #444;
+}
+.it-text{}
+.it-text p{
+	font-family: 'Rubik', sans-serif;
+}
+.owl-dot.active {
+    background: #4FA564;
+    width: 35px;
+}
+.owl-dots {
+    text-align: center;
+}
+.owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    margin: 0 3px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.testi_list .owl-dot.active {
+    background: #4FA564;
+    width: 35px;
+}
+.testi_list .owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    margin: 0 3px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: .5s;
+}
+/* service dots */
+.screen_list_service .owl-dot {
+    background: #bfcadc;
+    height: 13px;
+    width: 13px;
+    margin: 0 3px;
+    display: inline-block;
+    border-radius: 100%;
+    transition: .5s;
+}
+.screen_list_service .owl-dot.active {
+    background: #4FA564;
+	width: 13px;
+	height: 13px;
+}
+/* brand */
+.brand-area .owl-dot {
+display: none;
+}
+.brand-area.owl-dot.active {
+ display: none;
+}
+/* animation */
+.animation-thumb {
+    position: relative;
+}
+.animation-one {
+    left: 85px;
+    position: absolute;
+    top: 80px;
+}
+.animation-two {
+    position: absolute;
+    left: 0;
+    top: 274px;
+}
+.animation-two {
+    position: absolute;
+    left: 50px;
+    top: 328px;
+}
+.animation-three img {
+    width: 215px;
+}
+.animation-three {
+    position: absolute;
+    left: 433px;
+    top: 250px;
+}
+.animation-four {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+.animation-four img {
+    width: 420px;
+}
+.bounce-animate {
+animation-name: float-bob;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: float-bob;
+-moz-animation-duration: 2s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: float-bob;
+-ms-animation-duration: 2s;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-o-animation-name: float-bob;
+-o-animation-duration: 2s;
+-o-animation-iteration-count: infinite;
+-o-animation-timing-function: linear; }
+.bounce-animate2 {
+animation-name: float-bob2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: float-bob2;
+-moz-animation-duration: 3s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: float-bob2;
+-ms-animation-duration: 3s;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-o-animation-name: float-bob2;
+-o-animation-duration: 3s;
+-o-animation-iteration-count: infinite;
+-o-animation-timing-function: linear; }
+.bounce-animate3 {
+animation-name: float-bob3;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: float-bob3;
+-moz-animation-duration: 4s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: float-bob3;
+-ms-animation-duration: 4s;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-o-animation-name: float-bob3;
+-o-animation-duration: 4s;
+-o-animation-iteration-count: infinite;
+-o-animation-timing-function: linear; }
+.bounce-animate4 {
+animation-name: float-bob4;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: float-bob4;
+-moz-animation-duration: 5s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: float-bob4;
+-ms-animation-duration: 5s;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-o-animation-name: float-bob4;
+-o-animation-duration: 5s;
+-o-animation-iteration-count: infinite;
+-o-animation-timing-function: linear; }
+.bounce-animate5 {
+animation-name: float-bob5;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+-moz-animation-name: float-bob5;
+-moz-animation-duration: 6s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: float-bob5;
+-ms-animation-duration: 6s;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-o-animation-name: float-bob5;
+-o-animation-duration: 6s;
+-o-animation-iteration-count: infinite;
+-o-animation-timing-function: linear; }
+@-webkit-keyframes float-bob {
+0% {
+-webkit-transform: translateY(-30px);
+transform: translateY(-30px); }
+50% {
+-webkit-transform: translateY(-15px);
+transform: translateY(-15px); }
+100% {
+-webkit-transform: translateY(-30px);
+transform: translateY(-30px); } }
+@-webkit-keyframes float-bob2 {
+0% {
+-webkit-transform: translateY(-60px);
+transform: translateY(-60px); }
+50% {
+-webkit-transform: translateY(-30px);
+transform: translateY(-30px); }
+100% {
+-webkit-transform: translateY(-60px);
+transform: translateY(-60px); } }
+@-webkit-keyframes float-bob3 {
+0% {
+-webkit-transform: translateY(-40px);
+transform: translateY(-40px); }
+50% {
+-webkit-transform: translateY(-25px);
+transform: translateY(-25px); }
+100% {
+-webkit-transform: translateY(-40px);
+transform: translateY(-40px); } }
+@-webkit-keyframes float-bob4 {
+0% {
+-webkit-transform: translateY(-70px);
+transform: translateY(-70px); }
+50% {
+-webkit-transform: translateY(-35px);
+transform: translateY(-35px); }
+100% {
+-webkit-transform: translateY(-70px);
+transform: translateY(-70px); } }
+@-webkit-keyframes float-bob5 {
+0% {
+-webkit-transform: translateY(-75px);
+transform: translateY(-75px); }
+50% {
+-webkit-transform: translateY(-35px);
+transform: translateY(-35px); }
+100% {
+-webkit-transform: translateY(-75px);
+transform: translateY(-75px); } }
+@-webkit-keyframes movebounce {
+0% {
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+}
+50% {
+-webkit-transform: translateY(20px);
+transform: translateY(20px);
+}
+100% {
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+}
+}
+
+@keyframes movebounce {
+0% {
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+}
+50% {
+-webkit-transform: translateY(20px);
+transform: translateY(20px);
+}
+100% {
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+}
+}
+
+@-webkit-keyframes moveleftbounce {
+0% {
+-webkit-transform: translateX(0px);
+transform: translateX(0px);
+}
+50% {
+-webkit-transform: translateX(20px);
+transform: translateX(20px);
+}
+100% {
+-webkit-transform: translateX(0px);
+transform: translateX(0px);
+}
+}
+
+@keyframes moveleftbounce {
+0% {
+-webkit-transform: translateX(0px);
+transform: translateX(0px);
+}
+50% {
+-webkit-transform: translateX(20px);
+transform: translateX(20px);
+}
+100% {
+-webkit-transform: translateX(0px);
+transform: translateX(0px);
+}
+}
+
+
+
