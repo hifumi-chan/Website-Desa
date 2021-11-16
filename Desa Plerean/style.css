@@ -76,8 +76,7 @@
 	padding: 20px;
 	display: none;
 }
-.logo-txt::before {
-	content: "ITTECH";
+.logo-txt{
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 18px;
@@ -2193,9 +2192,7 @@ i.fas.fa-angle-down.rotate-icon {
 	width: 100%;
 	opacity: 0;
 }
-.dreamit-team-member-single:hover .team-member-thumb::before {
-	opacity:1;
-}
+
 .team-member-thumb img{
 	width: 100%;
 }

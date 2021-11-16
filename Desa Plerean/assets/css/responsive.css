@@ -146,6 +146,9 @@ max-width:960px !important;
 .menu-logo, .sticky-logo {
 	display: none !important;
 }
+.menu-logo > span {
+	font-size: 20px;
+}
 .menu-wrapper {
 	position: absolute;
 	top: 59px;
@@ -810,7 +813,7 @@ margin: 0 !important;
 		display: none;
 	}
 	.header-button{
-		display: none !important;
+		/* display: none !important; */
 	}
 	.dreamit-header-logo{
 		text-align: center !important;
