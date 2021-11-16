@@ -215,10 +215,13 @@ max-width:960px !important;
 	display: none;
 }
 .header-button{
-	display: none !important;
+	/* display: none !important; */
 }
 .dreamit-header-logo{
 	text-align: center !important;
+}
+.logo-text{
+	font-size: 10px;
 }
 .slider-area{
 	min-height:600px !important;
@@ -476,7 +479,7 @@ img.animation-four {
 	display: none;
 }
 .header-button{
-	display: none !important;
+	/* display: none !important; */
 }
 .dreamit-header-logo{
 	text-align: center !important;
